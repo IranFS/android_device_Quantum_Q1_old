@@ -1,0 +1,7 @@
+/misc		emmc	misc
+/data		ext4	/dev/block/mmcblk0p5
+/system		ext4	/dev/block/mmcblk0p3
+/cache		ext4	/dev/block/mmcblk0p4
+/boot		emmc	boot
+/recovery	emmc	recovery
+/sdcard		vfat	/dev/block/mmcblk0p6	/dev/block/mmcblk1
