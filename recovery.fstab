@@ -1,0 +1,8 @@
+# mount point	fstype		device			[device2]
+
+/boot         emmc  /dev/bootimg
+/system       ext4  /emmc@android 
+/cache        ext4  /emmc@cache 
+/data         ext4  /emmc@usrdata
+/external_sd  auto  /dev/block/mmcblk1p1	/dev/block/mmcblk1  flags=display="SD Card";storage;removable
+/sd-ext       auto  /dev/block/mmcblk1p2
